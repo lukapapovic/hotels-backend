@@ -8,5 +8,5 @@ username:'root',
 password:'luka',
 database:'hotels'
 
-})
+});
 export default dbConnection
