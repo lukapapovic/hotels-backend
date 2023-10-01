@@ -10,6 +10,7 @@ const getAllHotels= async()=>{
             description:hotel.description,
             yearOfStart:hotel.year_of_start,
             noOfStart:hotel.no_of_stars,
+            imagePath:hotel.image_path,
             updated:hotel.updated,
             created:hotel.created
         })
@@ -28,6 +29,7 @@ const getHotelById=async(id:number)=>{
             description:data[0].description,
             yearOfStart:data[0].year_of_start,
             noOfStars:data[0].no_of_stars,
+            imagePath:data[0].image_path,
             updated:data[0].updated,
             created:data[0].created
 
